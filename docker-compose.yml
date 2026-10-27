@@ -1,0 +1,7 @@
+services:
+  telesales-dropoff:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./output:/app/output
